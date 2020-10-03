@@ -26,4 +26,3 @@ with open("inputs.txt",'w') as f:
                 f.write(purpose.text)
                 f.write('\n')
     f.close()
-#name.text,purpose.text
