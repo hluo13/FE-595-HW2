@@ -9,6 +9,7 @@ Created on Sat Oct  3 16:47:23 2020
 
 import requests 
 from bs4 import BeautifulSoup 
+import time
 
 def hw2():
     try:
@@ -26,7 +27,9 @@ def hw2():
                         purpose = items[item]
                         f.write(purpose.text)
                         f.write('\n')
+                time.sleep(0.01) # sleep 0.01 second to slow down the requests.
             f.close()
+            
     except :
         return 'error'
             
