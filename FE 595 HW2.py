@@ -27,7 +27,7 @@ def hw2():
                         purpose = items[item]
                         f.write(purpose.text)
                         f.write('\n')
-                time.sleep(0.01) # sleep 0.01 second to slow down the requests.
+                time.sleep(0.1) # sleep 0.1 second to slow down the requests.
             f.close()
             
     except :
