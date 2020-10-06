@@ -32,6 +32,6 @@ def hw2():
             
     except :
         return 'error'
-            
+             
 if __name__ == "__main__":
     hw2()
